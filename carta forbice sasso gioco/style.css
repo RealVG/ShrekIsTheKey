@@ -1,0 +1,38 @@
+#carta{
+    
+    width: 100px;
+    border: 1px solid black;
+   
+    
+}
+#forbici{
+    width: 100px;
+    border: 1px solid black;
+    
+}
+#sasso{
+    width: 100px;
+    border: 1px solid black;
+    
+
+}
+div{
+    text-align: center;
+    background: lightcoral;
+    border-radius: 20%
+}
+
+#carta:hover{
+    filter: brightness(60%);
+}
+#forbici:hover{
+    filter: brightness(60%);
+}
+#sasso:hover{
+    filter: brightness(60%);
+
+}
+#reload{
+    display: none;
+    margin: 0 auto; 
+}

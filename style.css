@@ -1,0 +1,58 @@
+#div{
+    width: 200px;
+    height: 200px;
+    background:green;
+    margin-top: 40px;
+    border-color: 20px solid black;
+}
+#div:hover{
+    filter: brightness(60%);
+    z-index: 1;
+}
+
+span{
+    padding: 10px;
+}
+
+#immagine{    
+    max-width: 310px; 
+    position: absolute;
+    bottom: 64%;
+    width: 200px;
+    display: none;
+}
+#immagine:hover{
+    filter: brightness(60%);
+}
+
+#contenitore{  
+    display: none; 
+    z-index: 2;
+    position: absolute;
+    left: 40%;
+    top: 70px;
+    padding-right: 30px;
+    text-align:left;
+    background-color: gray;
+    border: 3px;
+    border-color: red;
+    box-shadow: 7px 5px 15px 3px red;
+}
+
+#shrek{
+    max-width: 310px; 
+    position: absolute;
+    bottom: 64%;
+    width: 200px;
+    display: none; 
+}
+
+#shrek:hover{
+    filter: brightness(60%);
+    z-index: 1;
+}
+
+#gay{
+    display: none;
+}
+
